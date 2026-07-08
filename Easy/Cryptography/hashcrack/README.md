@@ -27,10 +27,10 @@
 Run nc
 
 ````bash
-┌──(cyber1㉿MyBookProL7V)-[~]
+┌──(cyber1㉿cyber1)-[~]
 └─$  nc verbal-sleep.picoctf.net 49853
 Welcome!! Looking For the Secret?
-
+````
 
 While we known this is one of type hash crack challenge, I usualy use **hashcat** tool on terminal.
 
@@ -38,7 +38,7 @@ While we known this is one of type hash crack challenge, I usualy use **hashcat*
 ```bash
 
 
->┌──(cyber1㉿MyBookProL7V)-[~/Documents/cylabacademy/hashcrack]
+>┌──(cyber1㉿cyber1)-[~/Documents/cylabacademy/hashcrack]
 └─$ hashid -m b7a875fc1ea228b9061041b7cec4bd3c52ab3ce3
 Analyzing 'b7a875fc1ea228b9061041b7cec4bd3c52ab3ce3'
 [+] SHA-1 [Hashcat Mode: 100]
@@ -67,7 +67,7 @@ Then, I use Hashcat to crack the hash.
 
 ````bash
 
-┌──(cyber1㉿MyBookProL7V)-[~/Documents/cylabacademy/hashcrack]
+┌──(cyber1㉿cyber1)-[~/Documents/cylabacademy/hashcrack]
 └─$ hashcat -m 100 hash2.txt /usr/share/wordlists/rockyou.txt
 hashcat (v7.1.2) starting
 
@@ -92,7 +92,7 @@ the password is 'qwerty098'
 So we got the flag
 
 ````bash
-┌──(cyber1㉿MyBookProL7V)-[~]
+┌──(cyber1㉿cyber1)-[~]
 └─$  nc verbal-sleep.picoctf.net 49853
 Welcome!! Looking For the Secret?
 
