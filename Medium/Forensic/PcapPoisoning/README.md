@@ -65,4 +65,3 @@ we got the flag at 172.16.0.2 Retransmission.
 ---
 picoCTF{P64P_4N4L7S1S_SU55355FUL_31010c46}
 </b>
-FLAG_VALUE
